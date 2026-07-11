@@ -1,1 +1,9 @@
 # .gitignore items
+
+#virtual environment
+.env
+.venv
+.venv/
+
+
+.idea

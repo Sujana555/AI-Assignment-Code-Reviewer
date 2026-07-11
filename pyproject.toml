@@ -1,0 +1,32 @@
+[project]
+name = "AI-Assignment-Code-Reviewer"
+version = "0.0.1"
+authors = [
+  { name="Sujana Islam Suhi", email="sujanaislamislam555@gmail.com" },
+]
+description = "An AI-powered tool that grades your code against assignment rubrics"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+
+dependencies = [
+    "anthropic",
+    "pdfplumber",
+    "python-docx",
+]
+
+[project.urls]
+Homepage = "https://github.com/Sujana555/AI-Assignment-Code-Reviewer"
+Issues = "https://github.com/Sujana555/AI-Assignment-Code-Reviewer/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
