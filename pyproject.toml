@@ -18,6 +18,8 @@ dependencies = [
     "anthropic",
     "pdfplumber",
     "python-docx",
+    "openai",
+    "dotenv"
 ]
 
 [project.urls]
